@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar{
+    background: #fff;
+
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #171c58;
+}
+
+
+.botonera{
+    background: radial-gradient(#4e535c, #000);
+    color: #ffffff;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#li{
+    text-align: center;
+    margin-left: 100%;
+    list-style: none;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.row .botonera a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+#titulo{
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+#title{
+    text-align: center;
+    background: #8c9cbe;
+    border-radius: 0 0 20px 20px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.row{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#cuadro-grande{
+    background: #8c9cbe;
+    display: flex;
+    padding: 30px;
+    border-radius: 20px;
+    transition: 1s;
+    color: #fff;
+}
+
+p, img{
+    color: #fff;
+    overflow: hidden;
+}
+
+#cualidades{
+    padding: 5%;
+    border-radius: 20px;
+    background: #8c9cbe;
+    margin-top: 10%;
+    color: #fff;
+}
+
+#reconocimientos{
+    padding: 5%;
+    border-radius: 20px;
+    background: #8c9cbe;
+    margin-top: 10%;
+    color: #fff;
+}
+
+
+#descarga{
+    padding: 5%;
+    border-radius: 20px;
+    background: #8c9cbe;
+    margin-top: 10%;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+}
+
+#descarga a{
+    color: #fff;
+    text-decoration: none;
+    background: #4e535c;
+    padding: 2%;
+}
+
+#footer{
+    padding: 5%;
+    background: #000;
+    margin-top: 10%;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+}
+

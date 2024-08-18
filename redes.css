@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar{
+    background: #fff;
+
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #171c58;
+}
+
+.botonera{
+    background: radial-gradient(#4e535c, #000);
+    color: #ffffff;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#li{
+    text-align: center;
+    margin-left: 100%;
+    list-style: none;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.row .botonera a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+#titulo{
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+#title{
+    text-align: center;
+    background: #8c9cbe;
+    border-radius: 0 0 20px 20px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.row{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    margin-top: 10%;
+}
+
+label{
+    margin: 2%;
+    width: 20%;
+}
+
+input{
+    width: 70%;
+}
+
+textarea{
+    width: 70%;
+    height: 80px;
+}
+
+button{
+    border-color: #171c58;
+    color: #171c58;
+}
+
+#medium{
+    text-align: center;
+    margin: 10%;
+    font-size: 30px;
+}
+
+#wa, #ig{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer{
+    padding: 5%;
+    background: #000;
+    margin-top: 10%;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+}
